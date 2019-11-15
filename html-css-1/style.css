@@ -1,0 +1,175 @@
+body {
+    background-color: darkslateblue;
+    height: 1011px;
+    width: 500px;
+
+}
+
+header {
+    background-color: grey;
+    height: 4vw;
+    width: 100vw;
+
+}
+
+nav {
+    background-color: black;
+    height: 15vw;
+    width: 100vw;
+
+}
+
+main {
+    background-color: white;
+    height: 85vh;
+    width: 100vw;
+
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.C {
+    color: honeydew;
+    font-size: 1.5em;
+    margin: 0rem 0 0 4rem ;
+}
+
+.H {
+    color: honeydew;
+    margin: 0rem 0 0 65rem ;
+}
+
+.A {
+    color: honeydew;
+    margin: 0rem 0 0 2rem ;
+}
+
+.C2 {
+    color: honeydew;
+    margin: 0rem 0 0 2rem ;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.T,
+.h,
+.e,
+.M,
+.o,
+.r,
+.e2,
+.Y,
+.o2,
+.u,
+.K,
+.n,
+.o3,
+.w {
+    color: gold;
+    font-size: 4em;
+}
+
+.T {
+    margin: 8rem 0 0 20rem ; 
+}
+
+.h {
+    margin: 1.4rem 0 0 2rem ;
+}
+
+.e {
+    margin: -3.5rem 0 0 2.2rem ;
+}
+
+.M {
+    margin: -7rem 0 0 2.5rem ;
+}
+
+.o {
+    margin: -7rem 0 0 0rem ;
+}
+
+.r {
+    margin: -7rem 0 0 0rem ;
+}
+
+.e2 {
+    margin: -7rem 0 0 0rem ;
+}
+
+.Y {
+    margin: -7rem 0 0 2rem ;
+}
+
+.o2 {
+    margin: -7rem 0 0 0rem ;
+}
+
+.u {
+    margin: -7rem 0 0 0rem ;
+}
+
+.K {
+    margin: -3rem 0 0 2rem ;
+}
+
+.n {
+    margin: 0rem 0 0 1rem ;
+}
+
+.o3{
+    margin: 4rem 0 0 1rem ; 
+}
+
+.w{
+    margin: 8rem 0 0 1rem ; 
+}
+
+img {
+    margin:  5rem 0 0 -31rem ;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.box1,
+.box2,
+.box3 {
+    background-color: lightgreen;
+    height: 150px;
+    width: 230px;
+    margin:1rem 0 0 11rem;
+}
+
+.box4,
+.box5 { 
+    background-color: orange;
+    height: 150px;
+    width: 500px;
+    margin:-0rem 0 0 7.8rem;
+}
+
+.GP {
+    font-size: smaller;
+    height: 100px;
+    width: 300px;
+    margin: -6rem 0 0 12rem;
+}
+
+.elephant {
+    margin:  0rem 0 0 30rem ;
+}

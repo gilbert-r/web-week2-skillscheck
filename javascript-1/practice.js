@@ -43,12 +43,21 @@ function lovesCodeChecker(x){
 // Create a function called 'oddChecker' that takes in one parameter, 'num'. Your function should check to see if the parameter is even or odd. If the parameter is odd, return 'the number is odd'. If the number is even, return 'the number is even'.
 
 //Code here
-
+function oddChecker(num) {
+	if (num % 2 === 0){
+		return even;
+	} else {
+		return odd;
+	}
+};
 //////////////////PROBLEM 7////////////////////
 
 // Create a function called 'iLove' that takes in two string parameters, 'name' and 'love'. Have the function take the two parameters and return a string that says "NAMEPARAM loves LOVEPARAM" with the appropriate parameters in the string. e.g. "Joseph loves music"
 
 //Code Here
+function ilove(name, love) {
+
+}
 
 //////////////////PROBLEM 8////////////////////
 
@@ -87,13 +96,20 @@ me.greeter(`Hello! My name is ${me.firstName} and I live in ${me.state}`)
 // Create a function called 'bigOrSmall' that takes in one parameter, 'arr', which will be an array of numbers. Inside of the bigOrSmall function, create a new array called 'answers'. Then, loop over the passed in arr parameter, and check to see if the number in the array is GREATER than 100. If it is, push 'big' as a string to the answers array. If the number is LESS than or EQUAL to 100, push 'small' as a string to the answers array. Return the answers array inside of the function.
 
 // Code here
-
+function bigOrSmall(arr) {
+	var answers = []
+	for (answers)
+}
 //////////////////PROBLEM 13////////////////////
 
 // Create a function called 'arrayReverser' that takes in one parameter, 'arr'. Inside of arrayReverser, create an empty array called 'reversed'. Using a for loop, loop over the passed in array IN REVERSE (this means your counter should decrement), and then add each item to the 'reversed' array variable you created. Finally, return the 'reversed' array variable. 
 
 //Code Here
-
+function arrayReverser(arr) {
+	var reversed = [1, 2, 3, 4, 5];
+	for (reversed)
+	return arr.reverse()
+}
 //////////////////PROBLEM 14 - 18 Setup////////////////////
 
 // Below is an array, myNumbers. You will be using .map, .filter, .reduce and .forEach to manipulate the array in the following problems.
@@ -105,25 +121,42 @@ const myNumbers = [3, 55, 788, 2, 1]
 // First, use .map to create a new array that doubles each number. Call the new array 'doubled'.
 
 // Code Here
-
+let myNumbers = [3, 55, 788, 2, 1];
+let doubled = [];
+for (var i = 0; i < myNumbers[0].length; i++) {
+	doubled[i] = new Array(myNumbers[0].length).fill();
+}
 //////////////////PROBLEM 15////////////////////
 
 // Now, use .filter to create a new array containing any numbers that are greater than 100. Call the new array 'filtered'. 
 
 // Code Here
+let myNumbers = new Array[3, 55, 788, 2, 1];
+let filtered = new Array();
+input.array.forEach(function(number){
+	if(number > 100)
+	{
+		filtered.push(number);
+	}
+});
 
 //////////////////PROBLEM 16////////////////////
 
 // Next, use reduce to get the total of the numbers in the array summed together. Store the total in a new variable named 'total'. 
 
 // Code Here
-
+let myNumbers = [3, 55, 788, 2, 1];
+let total = 0
+for(var i in arr) {
+	total += arr[i]
+}
 //////////////////PROBLEM 17////////////////////
 
 // Finally, use .forEach to find the index of each item in the array. To begin, create an empty array called 'myNumbersIndex'. Then, use forEach to push each item's index from the myNumbers array into the newly created myNumbersIndex array. 
 
 // Code Here
-
+let myNumbers = [3, 55, 788, 2, 1];
+let 
 //////////////////PROBLEM 18////////////////////
 
 // Did you know that George Foreman has five sons named George? Go ahead and change everyone's name in the notGeorge array to George using .map. Store the resulting array in a variable named 'forTheLoveOfGeorge'.
